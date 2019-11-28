@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startService() {
         Intent serviceIntent = new Intent(this, ForegroundService.class);
-        serviceIntent.putExtra("inputExtra", "Foreground Service Example in Android");
+        serviceIntent.putExtra("inputExtra", "Número de correio de voz desconhecido");
 
         ContextCompat.startForegroundService(this, serviceIntent);
     }
